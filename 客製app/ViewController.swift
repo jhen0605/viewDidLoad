@@ -10,13 +10,13 @@ import SpriteKit
 import AVFoundation
 
 
-
 class ViewController: UIViewController {
-    let player = AVPlayer()   //音樂（程式法在下方）
+    let player = AVPlayer()   //音樂（程式碼在下方）
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         //漸層背景
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = view.bounds
