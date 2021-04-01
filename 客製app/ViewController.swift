@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         let flowerImageView = UIImageView(frame: CGRect(x: -40, y: -60, width: 500, height: 500))
         let flowerAnimatedImage = UIImage.animatedImageNamed("flower-", duration: 5)
         flowerImageView.image = flowerAnimatedImage
-        //CGAffineTransform: scale縮放及鏡像翻轉
+        //CGAffineTransform: scale 縮放及鏡像翻轉
         ImageView.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
 
         
